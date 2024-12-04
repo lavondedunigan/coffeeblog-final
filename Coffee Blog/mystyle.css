@@ -1,0 +1,107 @@
+/*global*/
+html,body{
+    margin:0;
+    padding:0;
+}
+body{ 
+    font-family: arial;
+}
+img{
+    max-width: 100%;
+}
+p{
+    line-height: 2;
+}
+
+/*utilities*/
+.container{
+    width:80%;
+    padding:3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    display: inline-block;
+    color:white;
+    padding:10px;
+    margin-top:10px;;
+    margin-bottom:20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2;
+    font-size: 12px;
+    border:none;
+}
+.btn-more{
+    background-color: black;
+}
+.btn.info{
+    background-color: sienna;
+}
+.bottom-line{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+/*header*/
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;/*horiszonta*/
+    align-items: center;/*vertical*/
+}
+.site-header{
+    background-image: url(./img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 350px;
+    text-align: center;
+
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/*main*/
+.main-flex{
+    display: flex;
+}
+.blog-container{
+    width: 60%;
+    margin-right: 20%;
+}
+.courses-container{
+    width: 40%;
+}
+/*blog*/
+
+/*footer*/
+.site-footer{
+    background-color: black;
+    color: white;
+} 
+/* contact */
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form{
+    background-color: white;
+    padding:20px;
+    margin-top: -40px;
+}
+.input-control{
+    margin-bottom: 20px;
+}   
+.input-control label{
+    display: inline-block;
+    width:120px;
+}
+.input-control input,
+.input-control textarea{
+    width:60%;
+    padding: 5px;
+    border:1px solid gray;
+}
